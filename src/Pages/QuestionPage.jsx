@@ -149,7 +149,7 @@ const QuestionPage = ({ questions }) => {
         } flex justify-center flex-col items-center`}
       >
         <div className="flex">
-          <Link to="options">
+          <Link to="/options">
             <button className="bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-md mt-4 shadow-lg hover:shadow-xl transition duration-300 ease-in-out">
               <FaArrowLeft />
             </button>
